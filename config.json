@@ -1,9 +1,9 @@
 {
     "api": {
-        "unsplash_access_key": "0mbEkJYRghxt5iQk0EwKEfWTfviiJD2b_6ggXrb7eII",
-        "pexels_api_key": "6T4VoKIU4XIHu91LBIq3dJWOAxTB6FzeoOvslfqQncZNmYgZEuECmyDb",
-        "pixabay_api_key": "50327321-ee526ced2c193e4f9ed818283",
-        "together_api_key": "6b41ce768c856a1e0106a02b63a1c16e6d573206663fec3b7423f33ba75e152e",
+        "unsplash_access_key": "",
+        "pexels_api_key": "",
+        "pixabay_api_key": "",
+        "together_api_key": "",
         "timeout": 30,
         "max_retries": 3,
         "retry_delay": 5
