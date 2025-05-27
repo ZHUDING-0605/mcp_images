@@ -7,6 +7,11 @@
         "timeout": 30,
         "max_retries": 3,
         "retry_delay": 5
+         "volcengine": {  // <-- 添加火山引擎配置块
+            "access_key_id": "",
+            "secret_access_key": "",
+            "region": "cn-north-1", // 根据文档，固定为 cn-north-1
+            "service": "cv"         // 根据文档，固定为 cv}
     },
     "image": {
         "max_results": 20,
@@ -15,7 +20,7 @@
     },
     "output": {
         "base_folder": "icons",
-        "allowed_extensions": [".png", ".jpg", ".jpeg", ".svg"],
+        "allowed_extensions": [".png", ".jpg", ".jpeg", ".svg" ,".webp"],
         "default_extension": ".png"
     },
     "server": {
